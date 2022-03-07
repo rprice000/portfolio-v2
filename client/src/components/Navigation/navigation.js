@@ -13,10 +13,18 @@ function NavigatePortfolio () {
 
     const renderPage = () => {
         switch (currentPage) {
-            case 'About': return (<About />);
-            case 'Portfolio': return (<Portfolio />);
-            case 'Resume': return (<Resume />);
-            case 'Contact': return (<Contact />);
+            case 'About': 
+                return (<About />);
+    
+            case 'Portfolio': 
+                return (<Portfolio />);
+            
+            case 'Resume': 
+                return (<Resume />);
+    
+            case 'Contact': 
+                return (<Contact />);
+  
             default: return (<About />);
         }
     };
