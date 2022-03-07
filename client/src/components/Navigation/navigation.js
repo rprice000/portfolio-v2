@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 import NavTabs from './index';
-// Will need to add other pages here
-
-
-
+import About from '../../pages/About';
+import Portfolio from '../../pages/Portfolio';
+import Resume from '../../pages/Resume';
+import Contact from '../../pages/Contact';
 
 
 
