@@ -1,5 +1,8 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+}
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,40 +16,26 @@ code {
 }
 
 
-#navUnorderdList {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  /* Testing */
-  background-color: red;
-}
-
-#navLinks {
-  text-decoration: none;
-}
-
-#name {
-
-
-/* Testing */
-  background-color: rgb(25, 0, 255);
-}
-
-#header {
-
-/* Testing */
-  background-color: rgb(157, 255, 0);
-}
-
-
+/* START === NAVIGATION AND HEADER STYLING */
+/* Heading Container / Unorder Nav List / Indvidual Nav Links */
 
 #headingContainer {
   display: flex;
   justify-content: space-around;
-/* Testing */
-  background-color: aquamarine;
+  padding: 50px 0 50px 0;
 }
 
+#navUnorderdList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#navLinks {
+  text-decoration: none;
+  color: inherit;
+  padding: 100px; 
+}
+
+/*  END === NAVIGATION AND HEADER STYLING */
 
