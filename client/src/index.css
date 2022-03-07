@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#navUnorderdList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  /* Testing */
+  background-color: red;
+}
+
+#navLinks {
+  text-decoration: none;
+}
+
+#name {
+
+
+/* Testing */
+  background-color: rgb(25, 0, 255);
+}
+
+#header {
+
+/* Testing */
+  background-color: rgb(157, 255, 0);
+}
+
+
+
+#headingContainer {
+  display: flex;
+  justify-content: space-around;
+/* Testing */
+  background-color: aquamarine;
+}
+
+

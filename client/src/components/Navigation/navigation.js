@@ -33,6 +33,7 @@ function NavigatePortfolio () {
     return (
         <div>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            
             <div>
                 {
                     renderPage()
