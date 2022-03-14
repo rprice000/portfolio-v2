@@ -1,30 +1,33 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import '../Navigation/Navigation.css'
+import { Nav, Navbar } from 'react-bootstrap';
 
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import Header from '../Header/Header';
 
-// import Header from '../Header/Header'
 
 const Navigation = () => {
     return (
     
-        <div>
+       <div>
+           <Navbar bg="dark" variant="dark" id="navContainer" expand="lg">
 
-            <Navbar collapseOnSelect fixed='top' expand='sm' variant='dark'>
-                <Container>
-                    <Nav.Toggle aria-controls='responsive-navbar-nav' />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav>
-                            <Nav.Link href="/">About</Nav.Link>
-                            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-                            <Nav.Link href="/resume">Resume</Nav.Link>
-                            <Nav.Link href="/contact">Contact</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-        </div>
+               <Navbar.Brand><Header /></Navbar.Brand>
+
+               <Navbar.Toggle />
+               <Navbar.Collapse>
+                    <Nav>
+                        <Nav.Link href="about">About</Nav.Link>
+                        <Nav.Link href="portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="resume">Resume</Nav.Link>
+                        <Nav.Link href="contact">Contact</Nav.Link>
+                    </Nav>
+               </Navbar.Collapse>
+
+           </Navbar>
+       </div>
      
     )
 }
 
-export default Navigation
+export default Navigation;
