@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-function Portfolio () {
+const Portfolio = () => {
     return (
         <div>
             <h1>Portfolio</h1>

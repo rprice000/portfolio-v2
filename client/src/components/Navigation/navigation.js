@@ -1,46 +1,30 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-import NavTabs from './index';
-import About from '../../pages/About';
-import Portfolio from '../../pages/Portfolio';
-import Resume from '../../pages/Resume';
-import Contact from '../../pages/Contact';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
+// import Header from '../Header/Header'
 
-
-function NavigatePortfolio () {
-    const [currentPage, handlePageChange] = useState('About');
-
-    const renderPage = () => {
-        switch (currentPage) {
-            case 'About': 
-                return (<About />);
-    
-            case 'Portfolio': 
-                return (<Portfolio />);
-            
-            case 'Resume': 
-                return (<Resume />);
-    
-            case 'Contact': 
-                return (<Contact />);
-  
-            default: return (<About />);
-        }
-    };
-
-
+const Navigation = () => {
     return (
+    
         <div>
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-            
-            <div>
-                {
-                    renderPage()
-                }
-            </div>
+
+            <Navbar collapseOnSelect fixed='top' expand='sm' variant='dark'>
+                <Container>
+                    <Nav.Toggle aria-controls='responsive-navbar-nav' />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav>
+                            <Nav.Link href="/">About</Nav.Link>
+                            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                            <Nav.Link href="/resume">Resume</Nav.Link>
+                            <Nav.Link href="/contact">Contact</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </div>
+     
     )
 }
 
-export default NavigatePortfolio;
+export default Navigation

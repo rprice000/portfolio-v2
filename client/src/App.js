@@ -2,18 +2,18 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 // Imports from Pages folder
-// import NavigatePortfolio from './components/Navigation/navigation';
 import About from './pages/About/About';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Resume from './pages/Resume/Resume';
 import Contact from './pages/Contact/Contact';
 
+//Imports from Components folder
+import Navigation from './components/Navigation/Navigation';
+
 const App = () => {
   return (
     <Router>
-      {/* <div>
-        <NavigatePortfolio></NavigatePortfolio>
-      </div> */}
+      <Navigation />
       <main>
         <Routes>
           <Route exact path="/" element={<About />} />
