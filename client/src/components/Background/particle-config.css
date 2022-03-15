@@ -1,0 +1,16 @@
+.wrapper {
+    position: relative;
+}
+
+.text{
+    /* background-color: black; */
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+}
+
+#tsparticles {
+    height: 80vh;
+}

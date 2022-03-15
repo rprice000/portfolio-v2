@@ -9,12 +9,15 @@ import Contact from './pages/Contact/Contact';
 
 //Imports from Components folder
 import Navigation from './components/Navigation/Navigation';
+// import ParticleBackground from './components/Background/ParticleBackground';
 
 const App = () => {
   return (
     <Router>
+      {/* <ParticleBackground/> */}
       <Navigation />
       <main>
+      
         <Routes>
           <Route exact path="/" element={<About />} />
           <Route exact path="/about" element={<About />} />
