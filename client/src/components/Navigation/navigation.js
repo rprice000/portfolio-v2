@@ -1,6 +1,6 @@
 // React Imports
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 // Styling Imports
 import 'bootstrap/dist/css/bootstrap.css';
 import '../Navigation/Navigation.css'
@@ -8,25 +8,39 @@ import '../Navigation/Navigation.css'
 import Header from '../Header/Header';
 
 
+import { FiBookOpen } from "react-icons/fi";
+import { FiBriefcase } from "react-icons/fi";
+import { FiTrello } from "react-icons/fi";
+import { FiPhoneOutgoing } from "react-icons/fi";
+
 const Navigation = () => {
     return (
     
        <div>
-           <Navbar bg="dark" variant="dark" expand="lg">
-
-               <Navbar.Brand><Header /></Navbar.Brand>
-
+           <Navbar expand="lg">
+               
+               <Navbar.Brand className='ps-5'><Header /></Navbar.Brand>
+              
                <Navbar.Toggle />
-               <Navbar.Collapse>
-                    <Nav>
-                        <Nav.Link href="about">About</Nav.Link>
-                        <Nav.Link href="portfolio">Portfolio</Nav.Link>
-                        <Nav.Link href="resume">Resume</Nav.Link>
-                        <Nav.Link href="contact">Contact</Nav.Link>
+               <Navbar.Collapse className='justify-content-end pe-5'>
+                    <Nav variant="pills" defaultActiveKey="/about">
+                       <Nav.Item className='ps-5 pe-5'>
+                        <Nav.Link href="about"> <FiBookOpen /> About</Nav.Link>
+                       </Nav.Item>
+                       <Nav.Item className='ps-5 pe-5'>
+                        <Nav.Link href="portfolio"> <FiBriefcase /> Portfolio</Nav.Link>
+                       </Nav.Item>
+                       <Nav.Item className='ps-5 pe-5'>
+                        <Nav.Link href="resume"> <FiTrello /> Resume</Nav.Link>
+                       </Nav.Item>
+                       <Nav.Item className='ps-5 pe-5'>
+                        <Nav.Link href="contact"> <FiPhoneOutgoing /> Contact</Nav.Link>
+                       </Nav.Item>
                     </Nav>
                </Navbar.Collapse>
-
+              
            </Navbar>
+           <NavDropdown.Divider />
        </div>
      
     )
