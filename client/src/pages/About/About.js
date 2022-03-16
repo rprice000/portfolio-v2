@@ -68,6 +68,26 @@ const About = () => {
                     {/* Spacing Column */}
                 </Col>
             </Row>
+
+{/* Business Owner */}
+            <Row className="mt-5">
+            <Col lg="4">
+                   
+            </Col>
+            <Col className="block-example border-bottom border-dark">
+                    <h2 className="text-end mb-5">Business Owner</h2>
+                    <p className="mb-5">
+                        I am a Web Developer able to build web applications from the ground 
+                        up -- from concept, navigation, layout, styling and programming. 
+                        Skilled at writing well-designed, testable and efficient code using 
+                        current best practices in web development. Fast learner, hard worker 
+                        and team player who is proficient in an array of web development tools.
+                    </p>
+                </Col>
+                <Col lg="2">
+                    
+                </Col>
+            </Row>
             
 {/* Gaming */}
             <Row className="mt-5">
