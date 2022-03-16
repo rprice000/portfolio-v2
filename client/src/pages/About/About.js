@@ -18,17 +18,25 @@ const About = () => {
             
            <ParticleBackground />
 
-           <Container fluid>
+           <Container fluid className="mt-5">
 
             <Row>
-                <h1>A little about me</h1>
+            <Col lg="1">
+                    {/* Spacing Column */}
+            </Col>
+            <Col>
+                <h1>A little about me . . .</h1>
+            </Col>
             </Row>
 
-            {/* Tech Nerd */}
-            <Row>
+{/* Test Row */}
+            <Row className="mt-5">
+            <Col lg="4">
+                    {/* Spacing Column */}
+            </Col>
             <Col className="block-example border-bottom border-dark">
-                    <h2 className="text-end">Tech Nerd</h2>
-                    <p className="text-end">
+                    <h2 className="text-end mb-5">test</h2>
+                    <p className="mb-5">
                         I am a Web Developer able to build web applications from the ground 
                         up -- from concept, navigation, layout, styling and programming. 
                         Skilled at writing well-designed, testable and efficient code using 
@@ -36,16 +44,39 @@ const About = () => {
                         and team player who is proficient in an array of web development tools.
                     </p>
                 </Col>
-                <Col xs lg="2" className="column">
-                    2
+                <Col lg="2">
+                    {/* Spacing Column */}
+                </Col>
+            </Row>
+
+{/* Tech Nerd */}
+            <Row className="mt-5">
+            <Col lg="4">
+                    {/* Spacing Column */}
+            </Col>
+            <Col className="block-example border-bottom border-dark">
+                    <h2 className="text-end mb-5">Tech Nerd</h2>
+                    <p className="mb-5">
+                        I am a Web Developer able to build web applications from the ground 
+                        up -- from concept, navigation, layout, styling and programming. 
+                        Skilled at writing well-designed, testable and efficient code using 
+                        current best practices in web development. Fast learner, hard worker 
+                        and team player who is proficient in an array of web development tools.
+                    </p>
+                </Col>
+                <Col lg="2">
+                    {/* Spacing Column */}
                 </Col>
             </Row>
             
-            {/* Video Games */}
-            <Row>
-                <Col className="column block-example border-bottom border-dark">
-                    <h2>Gaming</h2>
-                    <p>
+{/* Gaming */}
+            <Row className="mt-5">
+            <Col lg="4">
+                    {/* Spacing Column */}
+            </Col>
+            <Col className="block-example border-bottom border-dark">
+                    <h2 className="text-end mb-5">Gamer</h2>
+                    <p className="mb-5">
                         I am a Web Developer able to build web applications from the ground 
                         up -- from concept, navigation, layout, styling and programming. 
                         Skilled at writing well-designed, testable and efficient code using 
@@ -53,16 +84,19 @@ const About = () => {
                         and team player who is proficient in an array of web development tools.
                     </p>
                 </Col>
-                <Col xs lg="2" className="column">
-                        2
+                <Col lg="2">
+                    {/* Spacing Column */}
                 </Col>
             </Row>
 
-            {/* Drawing and Comic Books */}
-            <Row>
-                <Col className="block-example border-bottom border-dark">
-                    <h2>Drawing and Comic Books</h2>
-                    <p>
+{/* Drawing and Comic Books */}
+            <Row className="mt-5">
+            <Col lg="4">
+                    {/* Spacing Column */}
+            </Col>
+            <Col className="block-example border-bottom border-dark">
+                    <h2 className="text-end mb-5">Artist and Writer</h2>
+                    <p className="mb-5">
                         I am a Web Developer able to build web applications from the ground 
                         up -- from concept, navigation, layout, styling and programming. 
                         Skilled at writing well-designed, testable and efficient code using 
@@ -70,16 +104,19 @@ const About = () => {
                         and team player who is proficient in an array of web development tools.
                     </p>
                 </Col>
-                <Col xs lg="2" className="column">
-                    2
+                <Col lg="2">
+                    {/* Spacing Column */}
                 </Col>
             </Row>
 
-            {/* Movies */}
-            <Row>
-                <Col className="block-example border-bottom border-dark">
-                    <h2>Movies and TV Shows</h2>
-                    <p>
+{/* Movies and Shows */}
+            <Row className="mt-5">
+            <Col lg="4">
+                    {/* Spacing Column */}
+            </Col>
+            <Col className="block-example border-bottom border-dark">
+                    <h2 className="text-end mb-5">Movie Buff</h2>
+                    <p className="mb-5">
                         I am a Web Developer able to build web applications from the ground 
                         up -- from concept, navigation, layout, styling and programming. 
                         Skilled at writing well-designed, testable and efficient code using 
@@ -87,16 +124,19 @@ const About = () => {
                         and team player who is proficient in an array of web development tools.
                     </p>
                 </Col>
-                <Col xs lg="2" className="column">
-                    2
+                <Col lg="2">
+                    {/* Spacing Column */}
                 </Col>
             </Row>
 
-            {/* Health and Fitness */}
-            <Row>
-                <Col className="block-example border-bottom border-dark">
-                    <h2>Health and Fitness</h2>
-                    <p>
+{/* Health and Fitness */}
+            <Row className="mt-5">
+            <Col lg="4">
+                    {/* Spacing Column */}
+            </Col>
+            <Col className="block-example border-bottom border-dark">
+                    <h2 className="text-end mb-5">Amatuer Professional Athlete</h2>
+                    <p className="mb-5">
                         I am a Web Developer able to build web applications from the ground 
                         up -- from concept, navigation, layout, styling and programming. 
                         Skilled at writing well-designed, testable and efficient code using 
@@ -104,8 +144,8 @@ const About = () => {
                         and team player who is proficient in an array of web development tools.
                     </p>
                 </Col>
-                <Col xs lg="2" className="column">
-                    2
+                <Col lg="2">
+                    {/* Spacing Column */}
                 </Col>
             </Row>
 
@@ -117,13 +157,13 @@ const About = () => {
                 and team player who is proficient in an array of web development tools.
             </p> */}
 
-            <div>
-                <img src="images/image-headshot.jpg" alt="..." id="headshot" />
-            </div>
+           
            </Container>
 
 
-           
+           <div>
+                <img src="images/image-headshot.jpg" alt="..." id="headshot" />
+            </div>
 
 
            
