@@ -29,7 +29,7 @@ const ParticleBackground = () => {
           },
         },
         fullScreen: false,
-        fpsLimit: 120,
+        fpsLimit: 60,
         interactivity: {
           events: {
             onClick: {
@@ -102,7 +102,8 @@ const ParticleBackground = () => {
       }}
     />
       <div className="text">
-        <h1>This is a test</h1>
+        <h1>Hi! My name is Reagan Price.</h1> 
+        <h1>This is my web portfolio. Take a look around.</h1>
       </div>
   
             
