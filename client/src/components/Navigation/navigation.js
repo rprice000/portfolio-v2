@@ -16,7 +16,7 @@ import { FiPhoneOutgoing } from "react-icons/fi";
 const Navigation = () => {
     return (
     
-       <div>
+       <div id="nav-component">
            <Navbar expand="lg">
                
                <Navbar.Brand className='ps-5'><Header /></Navbar.Brand>

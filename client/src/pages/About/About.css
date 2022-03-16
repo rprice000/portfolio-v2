@@ -1,8 +1,31 @@
 /* About Styling */
 
-headshot {
-  width: 20%;
-  height: 300px;
-  border-radius: 25%;
-
+#about-page {
+  background-color: #EFEFEF;
+  margin: 0;
+  padding: 0;
 }
+
+
+#headshot {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+  border: .2em solid black;
+}
+
+img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+  border: .2em solid black;
+}
+
+/* .column {
+  border: .2em solid black;
+} */
+
+.about-topic {
+  text-align: right;
+}
+
