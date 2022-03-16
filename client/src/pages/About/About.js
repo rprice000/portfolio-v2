@@ -30,9 +30,9 @@ const About = () => {
             </Row>
 
 {/* Test Row */}
-            <Row className="mt-5">
+            {/* <Row className="mt-5">
             <Col lg="4">
-                    {/* Spacing Column */}
+                   
             </Col>
             <Col className="block-example border-bottom border-dark">
                     <h2 className="text-end mb-5">test</h2>
@@ -45,9 +45,9 @@ const About = () => {
                     </p>
                 </Col>
                 <Col lg="2">
-                    {/* Spacing Column */}
+                    
                 </Col>
-            </Row>
+            </Row> */}
 
 {/* Tech Nerd */}
             <Row className="mt-5">
@@ -57,11 +57,11 @@ const About = () => {
             <Col className="block-example border-bottom border-dark">
                     <h2 className="text-end mb-5">Tech Nerd</h2>
                     <p className="mb-5">
-                        I am a Web Developer able to build web applications from the ground 
-                        up -- from concept, navigation, layout, styling and programming. 
-                        Skilled at writing well-designed, testable and efficient code using 
-                        current best practices in web development. Fast learner, hard worker 
-                        and team player who is proficient in an array of web development tools.
+                        I love the quote from Aurthur C. Clarke, “Any sufficiently advanced technology is 
+                        indistinguishable from magic.”  This has always been true for me.  Growing up I have
+                        always been drawn to the latest gizmo or gadegt.  I once took apart my Nintendo 64 controller
+                        just to see what was inside.  In doing so I lost the use of my Nintendo
+                        but I gained the understanding of how the controller worked. 
                     </p>
                 </Col>
                 <Col lg="2">
@@ -161,9 +161,9 @@ const About = () => {
            </Container>
 
 
-           <div>
+           {/* <div>
                 <img src="images/image-headshot.jpg" alt="..." id="headshot" />
-            </div>
+            </div> */}
 
 
            
