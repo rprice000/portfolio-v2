@@ -3,3 +3,9 @@
 img {
     height:80vh;
   }
+
+  #resume-page {
+    background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
+  }
