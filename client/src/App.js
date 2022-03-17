@@ -9,6 +9,7 @@ import Contact from './pages/Contact/Contact';
 
 //Imports from Components folder
 import Navigation from './components/Navigation/Navigation';
+import Footer from './components/Footer/Footer'
 // import ParticleBackground from './components/Background/ParticleBackground';
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>
+      <Footer />
     </Router>
   );
 }

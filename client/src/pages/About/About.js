@@ -139,7 +139,7 @@ const About = () => {
             <Col lg="5">
                     {/* Spacing Column */}
             </Col>
-            <Col className="block-example border-bottom border-dark">
+            <Col className="block-example border-bottom border-dark mb-5">
                     <h2 className="text-end mb-5">Semi-Professional Amatuer Athlete</h2>
                     <p className="mb-5">
                         I have yet to be drafted into the NFL.  One day I will score an NFL 
