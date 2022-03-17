@@ -31,7 +31,7 @@ const About = () => {
 
 {/* Test Row */}
             {/* <Row className="mt-5">
-            <Col lg="4">
+            <Col lg="5">
                    
             </Col>
             <Col className="block-example border-bottom border-dark">
@@ -51,7 +51,7 @@ const About = () => {
 
 {/* Tech Nerd */}
             <Row className="mt-5">
-            <Col lg="4">
+            <Col lg="5">
                     {/* Spacing Column */}
             </Col>
             <Col className="block-example border-bottom border-dark">
@@ -71,18 +71,19 @@ const About = () => {
 
 {/* Business Owner */}
             <Row className="mt-5">
-            <Col lg="4">
+            <Col lg="5">
                    
             </Col>
             <Col className="block-example border-bottom border-dark">
                     <h2 className="text-end mb-5">Business Owner</h2>
                     <p className="mb-5">
-                        I am a Web Developer able to build web applications from the ground 
-                        up -- from concept, navigation, layout, styling and programming. 
-                        Skilled at writing well-designed, testable and efficient code using 
-                        current best practices in web development. Fast learner, hard worker 
-                        and team player who is proficient in an array of web development tools.
+                        After working in tech for 10 years, I honestly felt like I was 
+                        not being challenged enough in my work.  Don’t get me wrong I 
+                        love what I do.  To me starting a small business I just wanted 
+                        to see what my limitations were and if I would be able to achieve 
+                        this task.  As of March 15, 2022, I can now say I am a business owner. 
                     </p>
+                    {/* NEED TO ADD LINK TO BUSINESS WEBSITE */}
                 </Col>
                 <Col lg="2">
                     
@@ -91,17 +92,17 @@ const About = () => {
             
 {/* Gaming */}
             <Row className="mt-5">
-            <Col lg="4">
+            <Col lg="5">
                     {/* Spacing Column */}
             </Col>
             <Col className="block-example border-bottom border-dark">
                     <h2 className="text-end mb-5">Gamer</h2>
                     <p className="mb-5">
-                        I am a Web Developer able to build web applications from the ground 
-                        up -- from concept, navigation, layout, styling and programming. 
-                        Skilled at writing well-designed, testable and efficient code using 
-                        current best practices in web development. Fast learner, hard worker 
-                        and team player who is proficient in an array of web development tools.
+                        From playing on the regular Nintendo when I was a kid to now playing 
+                        on a gaming PC with a GTX 1080 Ti graphics card; gaming has always been 
+                        a part of my life.   Gaming has always been a stress reliever and a way 
+                        to connect with friends.  If you are a gamer like me, I would love to 
+                        talk to you about what games you play and the systems you play on.  
                     </p>
                 </Col>
                 <Col lg="2">
@@ -111,38 +112,22 @@ const About = () => {
 
 {/* Drawing and Comic Books */}
             <Row className="mt-5">
-            <Col lg="4">
+            <Col lg="5">
                     {/* Spacing Column */}
             </Col>
             <Col className="block-example border-bottom border-dark">
                     <h2 className="text-end mb-5">Artist and Writer</h2>
                     <p className="mb-5">
-                        I am a Web Developer able to build web applications from the ground 
-                        up -- from concept, navigation, layout, styling and programming. 
-                        Skilled at writing well-designed, testable and efficient code using 
-                        current best practices in web development. Fast learner, hard worker 
-                        and team player who is proficient in an array of web development tools.
+                        Whenever I have free time, I always find myself writing 
+                        and drawing.  Although I am not a published author, one day 
+                        I do plan to create my own comic book.  I never thought 
+                        having comic book knowledge would be advantageous.  But 
+                        since Marvel, DC, and other comics becoming mainstream I 
+                        now have friends and colleagues asking me what’s going on 
+                        in the latest movie or TV show.  If you have questions please 
+                        let me know.
                     </p>
-                </Col>
-                <Col lg="2">
-                    {/* Spacing Column */}
-                </Col>
-            </Row>
-
-{/* Movies and Shows */}
-            <Row className="mt-5">
-            <Col lg="4">
-                    {/* Spacing Column */}
-            </Col>
-            <Col className="block-example border-bottom border-dark">
-                    <h2 className="text-end mb-5">Movie Buff</h2>
-                    <p className="mb-5">
-                        I am a Web Developer able to build web applications from the ground 
-                        up -- from concept, navigation, layout, styling and programming. 
-                        Skilled at writing well-designed, testable and efficient code using 
-                        current best practices in web development. Fast learner, hard worker 
-                        and team player who is proficient in an array of web development tools.
-                    </p>
+                {/* Modal or Link to pictures you have drawn */}
                 </Col>
                 <Col lg="2">
                     {/* Spacing Column */}
@@ -151,17 +136,16 @@ const About = () => {
 
 {/* Health and Fitness */}
             <Row className="mt-5">
-            <Col lg="4">
+            <Col lg="5">
                     {/* Spacing Column */}
             </Col>
             <Col className="block-example border-bottom border-dark">
-                    <h2 className="text-end mb-5">Amatuer Professional Athlete</h2>
+                    <h2 className="text-end mb-5">Semi-Professional Amatuer Athlete</h2>
                     <p className="mb-5">
-                        I am a Web Developer able to build web applications from the ground 
-                        up -- from concept, navigation, layout, styling and programming. 
-                        Skilled at writing well-designed, testable and efficient code using 
-                        current best practices in web development. Fast learner, hard worker 
-                        and team player who is proficient in an array of web development tools.
+                        I have yet to be drafted into the NFL.  One day I will score an NFL 
+                        touchdown.   This is why I live an active and healthy lifestyle.  
+                        If you are the head coach of a team in the NFL and are looking for a 
+                        top-tier athlete, please contact me.   
                     </p>
                 </Col>
                 <Col lg="2">
@@ -169,23 +153,7 @@ const About = () => {
                 </Col>
             </Row>
 
-            {/* <p>
-                I am a Web Developer able to build web applications from the ground 
-                up -- from concept, navigation, layout, styling and programming. 
-                Skilled at writing well-designed, testable and efficient code using 
-                current best practices in web development. Fast learner, hard worker 
-                and team player who is proficient in an array of web development tools.
-            </p> */}
-
-           
            </Container>
-
-
-           {/* <div>
-                <img src="images/image-headshot.jpg" alt="..." id="headshot" />
-            </div> */}
-
-
            
         </div>
     )
