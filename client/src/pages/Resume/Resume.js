@@ -1,6 +1,6 @@
 // This is the resume page
 import React from 'react';
-import { Carousel, Container, Card, Col, Row, ListGroup } from 'react-bootstrap';
+import { Carousel, Container, Card, Col, Row, ListGroup, ListGroupItem } from 'react-bootstrap';
 import '../Resume/Resume.css'
 
 const Resume = () => {
@@ -43,13 +43,13 @@ const Resume = () => {
                         <Card.Body>
                             <Card.Text>                               
                             <Container>                           
-                            <Row className="justify-content-md-center">
-                                        <Col lg="6" className="text-center">
+                            <Row className="justify-content-between">
+                                        <Col lg="5" className="text-center">
                                         <h4>Sam Houston State University</h4>
                                             <p>Degree: Bachelor of Business Administration (BBA)</p>
                                             <p>Completed: May 2010</p> 
                                         </Col>
-                                        <Col lg="6" className="text-center">
+                                        <Col lg="5" className="text-center">
                                         <h4>University of Houston-Victoria</h4>
                                             <p>Masters in Entrepreneurship and Economic Development (MBA)</p>
                                             <p>Completed: December 2021</p> 
@@ -75,67 +75,34 @@ const Resume = () => {
                     <Card className="shadow-lg p-3 mb-5 bg-body rounded">
                         <Card.Body>
                             <Card.Text>
-                                <ListGroup horizontal className="justify-content-around">
-
-                                <ListGroup.Item id="test">
-                                    <Card>
-                                        <Card.Body className="text-center">
-                                        <Card.Title>Full Stack Web Developer Coding Bootcamp</Card.Title>
-                                            <Card.Text>Rice University</Card.Text>
-                                            <Card.Text>Completed: February 2022</Card.Text> 
-                                        </Card.Body>
-                                    </Card>
-                                </ListGroup.Item>
-
-                                <ListGroup.Item id="test">
-                                    <Card>
-                                        <Card.Body className="text-center">
-                                        <Card.Title>Advanced Styling and Responsive Design</Card.Title>
-                                            <Card.Text>Coursera</Card.Text>
-                                            <Card.Text>February 2020</Card.Text> 
-                                        </Card.Body>
-                                    </Card>
-                                </ListGroup.Item>
-
-                                <ListGroup.Item id="test">
-                                    <Card>
-                                        <Card.Body className="text-center">
-                                        <Card.Title>Advanced Styling and Responsive Design</Card.Title>
-                                            <Card.Text>Coursera</Card.Text>
-                                            <Card.Text>February 2020</Card.Text> 
-                                        </Card.Body>
-                                    </Card>
-                                </ListGroup.Item>
-
-                                <ListGroup.Item id="test">
-                                    <Card>
-                                        <Card.Body className="text-center">
-                                        <Card.Title>Advanced Styling and Responsive Design</Card.Title>
-                                            <Card.Text>Coursera</Card.Text>
-                                            <Card.Text>February 2020</Card.Text> 
-                                        </Card.Body>
-                                    </Card>
-                                </ListGroup.Item>
+                            <ListGroup>
+                                <Row fluid>
+                                <Col  lg="4" xs="12">
+                                <ListGroup.Item className="text-center">Rice University Full Stack Web Developer Coding Bootcamp – February 2022</ListGroup.Item>
+                                <ListGroup.Item className="text-center">Coursera Advanced Styling and Responsive Design – February 2020</ListGroup.Item>
+                                <ListGroup.Item className="text-center">Coursera Interactivity with JavaScript – February 2020</ListGroup.Item>
+                                <ListGroup.Item className="text-center">Coursera Intro to CSS3 – February 2020</ListGroup.Item>
+                                <ListGroup.Item className="text-center">Coursera Intro to HTML5 – January 2020</ListGroup.Item>
+                                </Col>
+                                <Col lg="4" xs="12">
+                                <ListGroup.Item className="text-center">Coursera Intro to Search Engine Optimization – June 2018</ListGroup.Item>
+                                <ListGroup.Item className="text-center">Cisco CCNA Routing and Switching – March 2010</ListGroup.Item>
+                                <ListGroup.Item className="text-center">N+ Certified – October 2013</ListGroup.Item>
+                                <ListGroup.Item className="text-center">A+ Certified – May 2011 – Updated October 2013</ListGroup.Item>
+                                </Col>
+                                <Col lg="4" xs="12">
+                                <ListGroup.Item className="text-center">HP Certification/ H08-Servicing HP Desktops and Notebooks - September 2005</ListGroup.Item>
+                                <ListGroup.Item className="text-center">Cisco/ Introduction to Telepresence Training Certificate of Completion – February 2012 </ListGroup.Item>
+                                <ListGroup.Item className="text-center">Dell Desktop Certified – May 2011</ListGroup.Item>
+                                <ListGroup.Item className="text-center">Dell Laptop Certified – May 2011</ListGroup.Item>
+                                <ListGroup.Item className="text-center">Dell Network Printer Certified – October 2011</ListGroup.Item>
+                                </Col>
+                                </Row>
+                            </ListGroup>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                </ListGroup>
+                             
                             </Card.Text>
                         </Card.Body>
                     </Card>
