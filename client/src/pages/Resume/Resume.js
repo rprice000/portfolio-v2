@@ -33,103 +33,29 @@ const Resume = () => {
             <Container fluid>
 
 {/* Education Card */}
-                <Row>
+            <Row>
                 <Col lg="1">
                    {/* Spacing Column */}
                 </Col>
                 <Col lg="10">
                 <h1 className="text-center">Education</h1>
                     <Card className="shadow-lg p-3 mb-5 bg-body rounded">
-                        {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                         <Card.Body>
-                            {/* <Card.Title>Education</Card.Title> */}
-                            <Card.Text>
-                                
-                                <ul>
-                                
-                                    <li>Sam Houston State University</li>
-                                        <ul>
-                                            <li>Degree: Bachelor of Business Administration (BBA)</li>
-                                            <li>Completed: May 2010</li>
-                                        </ul>
-
-                                    <li>University of Houston-Victoria</li>
-                                        <ul>
-                                            <li>Degree: Masters in Entrepreneurship and Economic Development (MBA)</li>
-                                            <li>Completed: December 2021</li>
-                                        </ul>
-                                
-                                </ul>
-
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col lg="1">
-                    {/* Spacing Column */}
-                </Col>
-                </Row>
-
-{/* Education Card */}
-<Row>
-                <Col lg="1">
-                   {/* Spacing Column */}
-                </Col>
-                <Col lg="10">
-                <h1 className="text-center">Education</h1>
-                    <Card className="shadow-lg p-3 mb-5 bg-body rounded">
-                        {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-                        <Card.Body>
-                            {/* <Card.Title>Education</Card.Title> */}
-                            <Card.Text>
-                                
-                                
-                                <div className="justify-content-between">
-                                   
-                                    <div>Sam Houston State University</div>
-                                        <div>
-                                            <div>Degree: Bachelor of Business Administration (BBA)</div>
-                                            <div>Completed: May 2010</div>
-                                        </div>
-                                  
-                                    <div>University of Houston-Victoria</div>
-                                        <div>
-                                            <div>Degree: Masters in Entrepreneurship and Economic Development (MBA)</div>
-                                            <div>Completed: December 2021</div>
-                                        </div>
-                                   
-                                </div>
-                              
-
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col lg="1">
-                    {/* Spacing Column */}
-                </Col>
-                </Row>
-
-{/* Education Card */}
-<Row>
-                <Col lg="1">
-                   {/* Spacing Column */}
-                </Col>
-                <Col lg="10">
-                <h1 className="text-center">Education</h1>
-                    <Card className="shadow-lg p-3 mb-5 bg-body rounded">
-                        {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-                        <Card.Body>
-                            {/* <Card.Title>Education</Card.Title> */}
-                            <Card.Text>
-                                
-                                
-                            <ListGroup horizontal className="justify-content-around">
-                                <ListGroup.Item>Sam Houston State University</ListGroup.Item>
-                                <ListGroup.Item>University of Houston-Victoria</ListGroup.Item>
-                            </ListGroup>
-                                                            
-
+                            <Card.Text>                               
+                            <Container>                           
+                            <Row className="justify-content-md-center">
+                                        <Col lg="6" className="text-center">
+                                        <h4>Sam Houston State University</h4>
+                                            <p>Degree: Bachelor of Business Administration (BBA)</p>
+                                            <p>Completed: May 2010</p> 
+                                        </Col>
+                                        <Col lg="6" className="text-center">
+                                        <h4>University of Houston-Victoria</h4>
+                                            <p>Masters in Entrepreneurship and Economic Development (MBA)</p>
+                                            <p>Completed: December 2021</p> 
+                                        </Col>
+                            </Row>
+                            </Container>                               
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -147,12 +73,69 @@ const Resume = () => {
                 <Col lg="10">
                 <h1 className="text-center">Credentials</h1>
                     <Card className="shadow-lg p-3 mb-5 bg-body rounded">
-                        {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                         <Card.Body>
-                            {/* <Card.Title>Credentials</Card.Title> */}
                             <Card.Text>
-                          
+                                <ListGroup horizontal className="justify-content-around">
 
+                                <ListGroup.Item id="test">
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                        <Card.Title>Full Stack Web Developer Coding Bootcamp</Card.Title>
+                                            <Card.Text>Rice University</Card.Text>
+                                            <Card.Text>Completed: February 2022</Card.Text> 
+                                        </Card.Body>
+                                    </Card>
+                                </ListGroup.Item>
+
+                                <ListGroup.Item id="test">
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                        <Card.Title>Advanced Styling and Responsive Design</Card.Title>
+                                            <Card.Text>Coursera</Card.Text>
+                                            <Card.Text>February 2020</Card.Text> 
+                                        </Card.Body>
+                                    </Card>
+                                </ListGroup.Item>
+
+                                <ListGroup.Item id="test">
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                        <Card.Title>Advanced Styling and Responsive Design</Card.Title>
+                                            <Card.Text>Coursera</Card.Text>
+                                            <Card.Text>February 2020</Card.Text> 
+                                        </Card.Body>
+                                    </Card>
+                                </ListGroup.Item>
+
+                                <ListGroup.Item id="test">
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                        <Card.Title>Advanced Styling and Responsive Design</Card.Title>
+                                            <Card.Text>Coursera</Card.Text>
+                                            <Card.Text>February 2020</Card.Text> 
+                                        </Card.Body>
+                                    </Card>
+                                </ListGroup.Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                </ListGroup>
                             </Card.Text>
                         </Card.Body>
                     </Card>
