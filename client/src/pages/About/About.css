@@ -7,19 +7,6 @@
 }
 
 
-#headshot {
-  width: 20%;
-  height: auto;
-  border-radius: 50%;
-  border: .2em solid black;
-}
-
-img {
-  width: 20%;
-  height: auto;
-  border-radius: 50%;
-  border: .2em solid black;
-}
 
 /* .column {
   border: .2em solid black;
