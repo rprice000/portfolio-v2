@@ -11,29 +11,73 @@ import Table from 'react-bootstrap/Table'
 const Resume = () => {
     return (
         <div id="resume-page">
-            <Carousel>
-                <Carousel.Item interval={10000}>
-                    <img className="d-block w-100" src="images/image-one.jpg" alt="First slide" />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item interval={10000}>
-                    <img className="d-block w-100" src="images/image-two.jpg" alt="Second slide" />
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item interval={10000}>
-                    <img className="d-block w-100" src="images/image-three.jpg" alt="Third slide" />
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+
+              
+                
+       
+
+<Container fluid>
+<Row>
+          <Col md="4">
+            <Card>
+              <Card.Header>
+                <Card.Title as="h4">Users Behavior</Card.Title>
+                <p className="card-category">24 Hours performance</p>
+              </Card.Header>
+              <Card.Body>
+                <div className="ct-chart" id="chartHours">
+                  
+                </div>
+              </Card.Body>
+              <Card.Footer>
+                <div className="legend">
+                  <i className="fas fa-circle text-info"></i>
+                  Open <i className="fas fa-circle text-danger"></i>
+                  Click <i className="fas fa-circle text-warning"></i>
+                  Click Second Time
+                </div>
+                <hr></hr>
+                <div className="stats">
+                  <i className="fas fa-history"></i>
+                  Updated 3 minutes ago
+                </div>
+              </Card.Footer>
+            </Card>
+          </Col>
+
+          <Col md="8">
+            <Card>
+            
+              <Card.Header>
+                <Card.Title as="h4">Email Statistics</Card.Title>
+                <p className="card-category">Last Campaign Performance</p>
+              </Card.Header>
+              <Card.Body>
+                <div
+                  className="ct-chart ct-perfect-fourth"
+                  id="chartPreferences"
+                >
+                </div>
+                <div className="legend">
+                  <i className="fas fa-circle text-info"></i>
+                  Open <i className="fas fa-circle text-danger"></i>
+                  Bounce <i className="fas fa-circle text-warning"></i>
+                  Unsubscribe
+                </div>
+                <hr></hr>
+                <div className="stats">
+                  <i className="far fa-clock"></i>
+                  Campaign sent 2 days ago
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+</Container>
+
+            
+            
+           
 
             <Container fluid>
 
@@ -187,8 +231,6 @@ const Resume = () => {
                 </Col>
                 </Row>
 
-
-
 {/* Technologies Card */}
                 <Row>
                 <Col lg="1">
@@ -247,10 +289,6 @@ const Resume = () => {
                    {/* Spacing Column */}
                 </Col>
                 </Row>
-
-
-
-
 
 {/* Professional Experience Section */}
                 <Row>
