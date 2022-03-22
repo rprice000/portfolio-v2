@@ -71,7 +71,7 @@ const Resume = () => {
             </Row>
 
 {/* Credentials Card */}
-<Row>
+            <Row>
                 <Col lg="1">
                    {/* Spacing Column */}
                 </Col>
@@ -260,12 +260,119 @@ const Resume = () => {
                 <Col lg="10">
                 <h1 className="text-center">Professional Experience</h1>
                     <Card className="shadow-lg p-3 mb-5 bg-body rounded">
-                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                         <Card.Body>
-                            {/* <Card.Title>Professional Experience</Card.Title> */}
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                
+                            <Card className="m-5">
+                                <Card.Body>
+                                    <Card.Title>Network Engineer</Card.Title>
+                                    <Card.Subtitle className="mb-2">Humble Independent School District</Card.Subtitle>
+                                    <Card.Subtitle className="mb-2">September 2015 – Currently Employed</Card.Subtitle>
+                                    <Card.Text>
+                                        <ul>
+                                            <li>Managed over 700+ Cisco/Extreme Networks switches and routers, 150+ Eaton/APC Uninterrupted Power Supplies (UPS), over 200+ Vape Sensors</li>
+                                            <li>Developed Strategic Technology Plans that included the research, development, implementation, and support of new and existing technologies</li>
+                                            <li>Managed and coordinated technology projects with key stakeholders including vendors, department heads, end-users, and other technology support professionals</li>
+                                            <li>Maintain network infrastructure for 14 elementary schools, 6 middle schools, 3 high schools, and 3 support buildings</li>
+                                            <li>Created database for workflow and process within Technology Department</li>
+                                            <li>Diagnosed and repaired wide ranging technology issues from desktop support, network equipment and cabling, server administration, and hardware and software support</li>
+                                        </ul>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+
+                            <Card className="m-5">
+                                <Card.Body>
+                                    <Card.Title>Technical Support Technician</Card.Title>
+                                    <Card.Subtitle className="mb-2">Pflugerville Independent School District</Card.Subtitle>
+                                    <Card.Subtitle className="mb-2">January 2013 – May 2015</Card.Subtitle>
+                                    <Card.Text>
+                                        <ul>
+                                            <li>Supported all technology needs of 1 high school, 1 middle school, and 3 elementary schools</li>
+                                            <li>Diagnosed and repaired hardware and software issues for end-uses</li>
+                                            <li>Installed and managed over 100+ software packages</li>
+                                            <li>Installed over 50+ peripheral devices</li>
+                                            <li>Worked with vendors, end-users, and other technology professionals on hardware and software issues</li>
+                                        </ul>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+
+                            <Card className="m-5">
+                                <Card.Body>
+                                    <Card.Title>Dell Desktop Support</Card.Title>
+                                    <Card.Subtitle className="mb-2">Apex Systems</Card.Subtitle>
+                                    <Card.Subtitle className="mb-2">April 2012 – December 2012</Card.Subtitle>
+                                    <Card.Text>
+                                        <ul>
+                                            <li>Technology Support for the Seton Hospital environment</li>
+                                            <li>Sole IT Supporter for Seton Hospitals on the weekends</li>
+                                            <li>Supported over 800+ software packages</li>
+                                            <li>Coordinated installations with software/hardware vendors</li>
+                                            <li>Oversaw server/network monitoring and reported issues accordingly</li>
+                                            <li>Created software/hardware installation guides for the Technology Team</li>
+                                            <li>Remotely/personally troubleshot issues for end users</li>
+                                            <li>Used BMC Remedy Ticketing Tool 10-15 Tickets per day</li>
+                                        </ul>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+
+                            <Card className="m-5">
+                                <Card.Body>
+                                    <Card.Title>PC Field Technician</Card.Title>
+                                    <Card.Subtitle className="mb-2">Netsync Network Solutions</Card.Subtitle>
+                                    <Card.Subtitle className="mb-2">January 2011 – January 2012</Card.Subtitle>
+                                    <Card.Text>
+                                        <ul>
+                                            <li>Diagnosed and repaired PCs and laptops in the Houston Independent School District</li>
+                                            <li>Sole Contact for 1/3 of Houston Independent School District hardware support</li>
+                                            <li>Completed between 5-15 service tickets per day</li>
+                                            <li>Trained new technicians in troubleshooting and repair of HP products</li>
+                                            <li>Installed network cabling, UPS, and end-user devices for Houston ISD, Beaumont ISD, and Katy ISD</li>
+                                        </ul>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+
+                            <Card className="m-5">
+                                <Card.Body>
+                                    <Card.Title>Participant Services Representative</Card.Title>
+                                    <Card.Subtitle className="mb-2">Mercer</Card.Subtitle>
+                                    <Card.Subtitle className="mb-2">October 2010 – December 2010</Card.Subtitle>
+                                    <Card.Text>
+                                        <ul>
+                                            <li>Responsible for receiving calls from and call-outs to participants</li>
+                                            <li>Assisted participants in selecting Health and Benefits packages </li>
+                                            <li>Trained in several company cultures and backgrounds</li>
+                                            <li>Trained in assisting participants over the phone is issues regard health and benefits selections</li>
+                                        </ul>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+
+                            <Card className="m-5">
+                                <Card.Body>
+                                    <Card.Title>Summer System Analyst</Card.Title>
+                                    <Card.Subtitle className="mb-2">Barbers Hill Independent School District</Card.Subtitle>
+                                    <Card.Subtitle className="mb-2">Summers Only May to August 2004, 2005, 2006, 2007</Card.Subtitle>
+                                    <Card.Text>
+                                        <ul>
+                                            <li>Updated and repaired computers - approximately 200 desktops and 1,100 laptops</li>
+                                            <li>Replaced hardware - keyboards, screens, CD drives, hard drives, and printers</li>
+                                            <li>Installed software products - Windows, Microsoft Office, and printer software</li>
+                                            <li>Maintained and organized storage rooms</li>
+                                            <li>Coordinate new equipment deployment and redistribution of existing assets</li>
+                                            <li>Assisted teachers and faculty with computer related Helpdesk ticket issues</li>
+                                        </ul>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+
+
+
+
+
                             </Card.Text>
                         </Card.Body>
                     </Card>
