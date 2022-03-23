@@ -1,10 +1,11 @@
-// This is the resume page
+// React Imports
 import React from 'react';
-import { Container, Card, Col, Row, ListGroup } from 'react-bootstrap';
+import { Container, Card, Col, Row, ListGroup, Table } from 'react-bootstrap';
+
+// Styling Imports
 import '../Resume/Resume.css'
 
-import Table from 'react-bootstrap/Table'
-
+// Component Imports
 import Carousel from '../../components/Slider/Slider';
 
 
