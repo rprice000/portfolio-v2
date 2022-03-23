@@ -127,6 +127,7 @@ const Contact = () => {
             </Card>
           </Col>
         </Row>
+
         <Row>
           <Col md="8">
             <Card>
@@ -235,6 +236,7 @@ const Contact = () => {
             </Card>
           </Col>
         </Row>
+        
         <Row>
           <Col md="6">
             <Card>

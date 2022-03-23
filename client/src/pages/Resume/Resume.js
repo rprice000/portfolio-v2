@@ -1,9 +1,11 @@
 // This is the resume page
 import React from 'react';
-import { Carousel, Container, Card, Col, Row, ListGroup } from 'react-bootstrap';
+import { Container, Card, Col, Row, ListGroup } from 'react-bootstrap';
 import '../Resume/Resume.css'
 
 import Table from 'react-bootstrap/Table'
+
+import Carousel from '../../components/Slider/Slider';
 
 
 
@@ -12,68 +14,30 @@ const Resume = () => {
     return (
         <div id="resume-page">
 
-              
                 
        
 
-<Container fluid>
-<Row>
-          <Col md="4">
-            <Card>
-              <Card.Header>
-                <Card.Title as="h4">Users Behavior</Card.Title>
-                <p className="card-category">24 Hours performance</p>
-              </Card.Header>
-              <Card.Body>
-                <div className="ct-chart" id="chartHours">
-                  
-                </div>
-              </Card.Body>
-              <Card.Footer>
-                <div className="legend">
-                  <i className="fas fa-circle text-info"></i>
-                  Open <i className="fas fa-circle text-danger"></i>
-                  Click <i className="fas fa-circle text-warning"></i>
-                  Click Second Time
-                </div>
-                <hr></hr>
-                <div className="stats">
-                  <i className="fas fa-history"></i>
-                  Updated 3 minutes ago
-                </div>
-              </Card.Footer>
-            </Card>
-          </Col>
+            <Container fluid>
+                <Row>
+                    <Col md="4" id="test1" className="d-flex justify-content-center align-items-center">
+                        <h1>My Resume</h1>
+                    </Col>
 
-          <Col md="8">
-            <Card>
-            
-              <Card.Header>
-                <Card.Title as="h4">Email Statistics</Card.Title>
-                <p className="card-category">Last Campaign Performance</p>
-              </Card.Header>
-              <Card.Body>
-                <div
-                  className="ct-chart ct-perfect-fourth"
-                  id="chartPreferences"
-                >
-                </div>
-                <div className="legend">
-                  <i className="fas fa-circle text-info"></i>
-                  Open <i className="fas fa-circle text-danger"></i>
-                  Bounce <i className="fas fa-circle text-warning"></i>
-                  Unsubscribe
-                </div>
-                <hr></hr>
-                <div className="stats">
-                  <i className="far fa-clock"></i>
-                  Campaign sent 2 days ago
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-</Container>
+                    <Col md="8" id="test2">
+                       <Carousel />
+                        
+                    </Col>
+                    </Row>
+
+                   
+
+                    
+
+
+
+
+
+            </Container>
 
             
             
