@@ -14,9 +14,6 @@ const Resume = () => {
     return (
         <div id="resume-page">
 
-                
-       
-
             <Container fluid>
                 <Row>
                     <Col md="4" id="test1" className="d-flex justify-content-center align-items-center">
@@ -28,20 +25,7 @@ const Resume = () => {
                         
                     </Col>
                     </Row>
-
-                   
-
-                    
-
-
-
-
-
             </Container>
-
-            
-            
-           
 
             <Container fluid>
 

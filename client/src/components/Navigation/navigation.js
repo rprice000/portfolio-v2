@@ -40,7 +40,7 @@ const Navigation = () => {
                </Navbar.Collapse>
               
            </Navbar>
-           <NavDropdown.Divider />
+           <NavDropdown.Divider id="dropdown-divider" />
        </div>
      
     )
