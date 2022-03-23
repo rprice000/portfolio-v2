@@ -17,6 +17,6 @@ img {
 
   #test2 {
     height: 500px;
-    background-color: black;
+    /* background-color: black; */
     padding: 0px;
   }

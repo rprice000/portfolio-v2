@@ -1,8 +1,15 @@
 /* Carousel styling */
-
+#slider-container {
+    padding: 0px;
+}
 #slider {
     height: 500px;
-  
+    position: relative;
+  }
+
+#slider-title {
+    position: absolute;
+    z-index: 1;
   }
 
   #slide-1
