@@ -1,20 +1,26 @@
 /* Resume page Styling */
 
-img {
-    height:80vh;
-  }
-
   #resume-page {
     background-color: #EFEFEF;
     margin: 0;
     padding: 0;
   }
 
-  #test1 {
-    height: 500px;
+  #resume-hero {
+    margin-bottom: 200px;
   }
 
-  #test2 {
+  #resume-col-1 {
     height: 500px;
     padding: 0px;
+  }
+
+  #resume-col-2{
+    height: 500px;
+    padding: 0px;
+  }
+
+  #resume-card-title{
+    height: 500px;
+    width: 100%;
   }

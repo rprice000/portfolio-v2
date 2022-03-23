@@ -14,20 +14,22 @@ const Resume = () => {
     return (
         <div id="resume-page">
 
-            <Container fluid>
+            <Container fluid id="resume-hero">
                 <Row>
-                    <Col md="4" id="test1" className="d-flex justify-content-center align-items-center">
-                        <h1>My Resume</h1>
+                    <Col md="4" id="resume-col-1">
+                        <Card id="resume-card-title" className="d-flex justify-content-center align-items-center">
+                                <Card.Title><h1>My Resume</h1></Card.Title>
+                        </Card>
                     </Col>
 
-                    <Col md="8" id="test2">
+                    <Col md="8" id="resume-col-2">
                        <Carousel />
                         
                     </Col>
                     </Row>
             </Container>
 
-            <Container fluid>
+            <Container fluid className="mt-5">
 
 {/* Education Card */}
             <Row>
