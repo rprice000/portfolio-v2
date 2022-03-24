@@ -14,12 +14,12 @@
 }
 
 .cards {
-  height: 300px;
-  border-radius: 15px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
   background-color: black;
   width: 300px;
   height: 400px;
+  border-radius: 15px;
+  color: white;
 }
 
 
