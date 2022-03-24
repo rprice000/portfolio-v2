@@ -1,67 +1,65 @@
 // React Imports
 import React from 'react';
 // import { Container, Card, Col, Row, ListGroup, Table } from 'react-bootstrap';
-import { Container, Card, Col, Row, Button } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 // Styling Imports
 import '../Portfolio/Portfolio.css'
-
+// import '../Portfolio/Portfolio.scss'
 // Component Imports
 
 
 
 const Portfolio = () => {
     return (
-        <Container fluid id="portfolio-page">
+                    <div class="portfolio-body" >
+                        <Container>
+                            <Row>
+                            <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                <h2 class="java">Java</h2>
+                                <p class="java">Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <h2>01</h2>
+                            </div>
+                            </div>
 
-            <Row>
-                <Col lg="4">
-                    <Card style={{ width: '100%' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col lg="4">
-                    <Card style={{ width: '100%' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col lg="4">
-                    <Card style={{ width: '100%' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            </Row>
+                            <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                <h2 class="python">Python</h2>
+                                <p class="python">Python is an interpreted, high-level and general-purpose programming language.</p>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <h2>02</h2>
+                            </div>
+                            </div>
 
-            
-            
-                
-            
+                            <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                <h2 class="cSharp">C#</h2>
+                                <p class="cSharp">C# is a general-purpose, multi-paradigm programming language encompassing static typing, strong typing, lexically scoped and component-oriented programming disciplines.</p>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <h2>03</h2>
+                            </div>
+                            </div>
+                            </Row>
 
-        </Container>
+                            
+
+
+                        </Container>
+
+                    </div>
+
+
     )
 }
 
