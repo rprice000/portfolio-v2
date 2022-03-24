@@ -20,8 +20,16 @@ const Portfolio = () => {
                 {/* d-flex justify-content-center align-items-center */}
                     <Row>
                         <Col className="card-column d-flex justify-content-center">
-                            <div className="cards d-flex justify-content-center align-items-center">
-                                <h3>1</h3>
+                            <div className="cards d-flex">
+                                <div class="face face1">
+                                    <div class="content">
+                                        <h2>project 1</h2>
+                                    </div>
+                                </div>
+
+                                <div class="face face2">
+                                    <h2>01</h2>
+                                </div>
                             </div>
                         </Col>
                         <Col className="card-column d-flex justify-content-center">
