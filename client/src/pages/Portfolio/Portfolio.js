@@ -1,7 +1,7 @@
 // React Imports
 import React from 'react';
 // import { Container, Card, Col, Row, ListGroup, Table } from 'react-bootstrap';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col, Button, Nav} from 'react-bootstrap';
 
 // Styling Imports
 import '../Portfolio/Portfolio.css'
@@ -19,19 +19,28 @@ const Portfolio = () => {
                 <Container fluid>
                 {/* d-flex justify-content-center align-items-center */}
                     <Row>
+
+
                         <Col className="card-column d-flex justify-content-center">
                             <div className="cards d-flex">
-                                <div class="face face1">
-                                    <div class="content">
-                                        <h2>project 1</h2>
-                                    </div>
+                                <div class="card-content-spacing card-bottom">
+                                    <Nav className="flex-column">
+                                        <Button className="mt-2 mb-2">Deployed App</Button>
+                                        <Button className="mt-2 mb-2">GitHub Repo</Button>
+                                        <Button className="mt-2 mb-2">Modal Info</Button>
+                                    </Nav>
                                 </div>
 
-                                <div class="face face2">
-                                    <h2>01</h2>
+                                <div class="card-content-spacing card-cover">
+                                    <h2>Project: Run-Buddy</h2>
                                 </div>
                             </div>
                         </Col>
+
+
+
+
+
                         <Col className="card-column d-flex justify-content-center">
                             <div className="cards d-flex justify-content-center align-items-center">
                                 <h3>2</h3>

@@ -24,7 +24,7 @@
 }
 
 
-.cards .face {
+.cards .card-content-spacing {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -35,21 +35,23 @@
   align-items: center;
 }
 
-.cards .face.face1 {
+.cards .card-content-spacing.card-bottom {
     box-sizing: border-box;
     padding: 20px;
 }
 
-.cards .face.face2 {
+.cards .card-content-spacing.card-cover {
   transition: 0.5s;
 }
 
-.cards:hover .face.face2 {
+.cards:hover .card-content-spacing.card-cover {
   height: 60px;
 }
 
 
-.cards:nth-child(1) .face.face2 {
-  background-color: green;
+.cards:nth-child(1) .card-content-spacing.card-cover {
   border-radius: 15px;
+  background-image: url('../../images/image-run.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
 }
