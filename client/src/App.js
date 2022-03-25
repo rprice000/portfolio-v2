@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
+
 // Imports from Pages folder
 import About from './pages/About/About';
 import Portfolio from './pages/Portfolio/Portfolio';
@@ -12,8 +13,11 @@ import Navigation from './components/Navigation/Navigation';
 import Footer from './components/Footer/Footer'
 // import ParticleBackground from './components/Background/ParticleBackground';
 
+
+
 const App = () => {
   return (
+
     <Router>
       {/* <ParticleBackground/> */}
       <Navigation />
@@ -30,6 +34,7 @@ const App = () => {
       </main>
       <Footer />
     </Router>
+  
   );
 }
 

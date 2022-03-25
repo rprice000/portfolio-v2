@@ -1,6 +1,6 @@
 // React Imports
 import React from 'react';
-import { Carousel, Card, Col, Row, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Carousel, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 // Component and CSS Imports
 import './Slider.css'
 
