@@ -20,7 +20,7 @@ const Portfolio = () => {
 
     return (
             <div id="portfolio-page">
-                <section id="portfolio-hero">
+                <section id="portfolio-hero" className="mb-5">
                 <h1>Portfolio</h1>
                 </section>
                 <Container fluid>
