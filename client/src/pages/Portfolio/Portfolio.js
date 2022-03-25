@@ -20,8 +20,16 @@ const Portfolio = () => {
 
     return (
             <div id="portfolio-page">
-                <section id="portfolio-hero" className="mb-5">
-                <h1>Portfolio</h1>
+                <section id="portfolio-hero" className="mb-5 d-flex justify-content-center align-items-center">
+                    <div className="flex-column d-flex justify-content-center align-items-center">
+                        <h1 class="hero-content">
+                            Welcome to My Web Portfolio
+                        </h1>
+                    
+                        <h3 class="hero-content">
+                            For more info on my projects hover a card.
+                        </h3>
+                    </div>
                 </section>
                 <Container fluid>
                 {/* d-flex justify-content-center align-items-center */}
